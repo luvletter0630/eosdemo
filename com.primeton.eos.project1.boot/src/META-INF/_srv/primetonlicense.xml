@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<licenses>
+    <license-group embed="true" format="1.0" productFamily="Primeton Platform" release="8.1">
+        <license edition="EE" licensee="Primeton Customer" sign="302c0214765b2772e65b8363bcf5067afab114ed7e2adcec02142bf7ca1aefbce300ec47f72a28d6735fba220fb0" type="PERM">
+            <license-element key="cpus" privilege="false" value="unlimited"/>
+            <license-element key="db" value="unlimited"/>
+            <license-element key="as" value="unlimited"/>
+            <license-element key="os" value="unlimited"/>
+            <license-element key="expiration" value="unlimited"/>
+            <license-element key="ip" value="BPhhk5BuPjwlZ+7q6BCjcEk8niiygTGpRw=="/>
+            <license-element key="mac" value="BPhhk5BuPjwlZ+7q6BCjcEk8niiygTGpRw=="/>
+            <license-element key="server" value="true">
+            </license-element>
+            <license-element key="richweb" value="true">
+            </license-element>
+            <license-element key="workflow" value="true">
+            </license-element>
+            <license-element key="managermodel" value="single"/>
+            <license-element key="cluster" value="false"/>
+            <license-element key="international" value="unlimited"/>
+            <license-element key="concurrency" value="20"/>
+            <license-element key="distributed" value="true"/>
+            <license-element key="scaAssembly" value="true"/>
+            <license-element key="scaCaller" value="true"/>
+            <license-element key="wsBinding" value="true"/>
+            <license-element key="wsCaller" value="true"/>
+            <license-element dynamic="true" key="gov.integrates.iam" value="true"/>
+            <license-element dynamic="true" key="gov.integrates.gateway" value="true"/>
+            <license-element dynamic="true" key="gov.integrates.cfg-center" value="true"/>
+            <license-element dynamic="true" key="gov.integrates.log-center" value="true"/>
+            <license-element dynamic="true" key="gov.integrates.apm-center" value="true"/>
+            <license-element dynamic="true" key="gov.integrates.cbm-center" value="true"/>
+            <license-element dynamic="true" key="gov.domain.number" value="1"/>
+            <license-element dynamic="true" key="gov.instance.number" value="20"/>
+            <license-element dynamic="true" key="iam.tenant.number" value="2"/>
+            <license-element dynamic="true" key="iam.tenant.system.number" value="5"/>
+            <license-element dynamic="true" key="iam.tenant.user.number" value="20"/>
+        </license>
+    </license-group>
+</licenses>

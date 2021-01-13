@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+	<property name="LOG_FOLDER" value="${LOG_FOLDER:-./logs}" />
+
+	<include resource="com/primeton/eos/springboot/logging/logback/logback-spring.xml" />
+	
+</configuration>

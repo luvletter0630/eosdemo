@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+        <groupId>com.primeton.eos</groupId>
+        <artifactId>eos-pom</artifactId>
+        <version>8.1.0</version>
+    </parent>
+	
+	<groupId>com.primeton.eos</groupId>
+	<artifactId>project1</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	
+	<modules>
+	    	    <module>com.primeton.eos.project1.api</module>
+			    <module>com.primeton.eos.project1.spi</module>
+			    <module>com.primeton.eos.project1.impl</module>
+			    <module>com.primeton.eos.project1.boot</module>
+		    </modules>
+	<dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.primeton.eos</groupId>
+                <artifactId>eos-server-dependencies</artifactId>
+                <version>8.1.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>       
+            <dependency>
+                <groupId>com.primeton.eos.extension</groupId>
+                <artifactId>com.primeton.eos.foundation</artifactId>
+                <version>8.1.0</version>
+            </dependency>
+        </dependencies> 
+    </dependencyManagement>
+    <build>
+		<plugins>
+			<plugin>
+				<groupId>com.primeton.studio.maven.plugin.eos</groupId>
+				<artifactId>eos-contribution-maven-plugin</artifactId>
+				<version>8.1.0.0</version>
+				<executions>
+					<execution>
+						<phase>compile</phase>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

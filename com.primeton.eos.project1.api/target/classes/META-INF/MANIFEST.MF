@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Description: 
+Bundle-SymbolicName: com.primeton.eos.project1.api
+Bundle-Name: com.primeton.eos.project1.api
+Bundle-Version: 1.0.0
+Require-Bundle: 
+Bundle-Vendor: Administrator
+eos-webCtxPath: eos
+

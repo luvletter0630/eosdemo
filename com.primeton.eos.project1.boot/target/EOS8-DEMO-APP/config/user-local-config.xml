@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application xmlns="http://www.primeton.com/xmlns/eos/1.0">
+    <!--the class path used to compile java files\-->
+    <module name="Engine">
+        <group name="Runtime-Java-Build">
+            <!--absolute path,supports only jar,zip files-->
+            <configValue key="Class-Path"/>
+            <!--
+			may be relative to the root path of current web application.
+			$EOS_HOME/domain/servers/localServer/applications/yourAppName
+			-->
+            <configValue key="Source-Path">temp</configValue>
+        </group>
+    </module>
+    <module name="JMXSecurity">
+        <!--
+		 <group name="jmx">
+		            <configValue key="authorization">true</configValue>
+		            <configValue key="username">primeton</configValue>
+		            <configValue key="password">{3DES}npO5MYMbVf7HCaXdpg5Sb/c=</configValue>
+		 </group>
+		 -->
+    </module>
+</application>
